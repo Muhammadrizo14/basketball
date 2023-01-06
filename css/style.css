@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1660px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf");
+}
+html,
+body {
+  height: 100%;
+  background-image: url("../img/gl_bg.png");
+  background-size: cover;
+}
+
+.wrap {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap header {
+  padding: 42px;
+}
+.wrap header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap header .container ul {
+  display: flex;
+}
+.wrap header .container ul li {
+  padding-right: 40px;
+  list-style: none;
+}
+.wrap header .container ul li:last-child {
+  padding-right: 0px;
+}
+.wrap header .container ul li a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.wrap header .container ul li .login {
+  padding: 10px 30px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+.wrap main {
+  flex: 1 1 auto;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.wrap footer {
+  background-color: #fff;
+  padding: 20px;
+}
+.wrap footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #122E82;
+}
+
+.wrap main .static {
+  display: flex;
+}
+.wrap main .static .first {
+  width: 540px;
+}
+.wrap main .static .first .chemp {
+  width: 490px;
+  padding: 25px 25px 38px 25px;
+  background: #F7F9FF;
+  border-radius: 10px;
+}
+.wrap main .static .first .chemp h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+}
+.wrap main .static .first .chemp .countries__list .country {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .static .first .chemp .countries__list .country p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+}
+.wrap main .static .first .chemp .countries__list .country .country__title {
+  display: flex;
+  align-items: center;
+}
+.wrap main .static .first .chemp .countries__list .country .country__title p {
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 15px;
+  font-size: 25px;
+  color: #000000;
+}
+.wrap main .static .first .more {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.wrap main .static .first .more img {
+  padding-right: 10px;
+}
+.wrap main .static .second {
+  width: 1100px;
+  margin-left: 20px;
+}
+.wrap main .static .second .basket {
+  background: #F7F9FF;
+  border-radius: 10px;
+  padding: 25px 0px 35px 0px;
+}
+.wrap main .static .second .basket h1 {
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+.wrap main .static .second .basket .woman {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 25px;
+  background: #0C225E;
+  margin-bottom: 25px;
+}
+.wrap main .static .second .basket .woman h3 {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.wrap main .static .second .basket .foa {
+  border-radius: 10px;
+  padding-left: 25px;
+}
+.wrap main .static .second .basket .foa .foa__card {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+.wrap main .static .second .basket .foa .foa__card:last-child {
+  padding-bottom: 0;
+}
+.wrap main .static .second .basket .foa .foa__card h2 {
+  flex-basis: 60%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+}
+.wrap main .static .second .basket .foa .foa__card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  flex-basis: 20%;
+}
+.wrap main .static .second .basket .foa .foa__card a {
+  display: block;
+  color: #00A76A;
+  padding: 10px 30px;
+  border: 3px solid #00A76A;
+  border-radius: 5px;
+}
+.wrap main .static .second .basket .foa .foa__card a:hover {
+  transition: 0.5s ease;
+  background-color: #00A76A;
+  color: #fff;
+}
+.wrap main .static .second .more {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.wrap main .static .second .more img {
+  padding-right: 10px;
+}/*# sourceMappingURL=style.css.map */

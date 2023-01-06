@@ -1,0 +1,59 @@
+@import 'setting.scss';
+
+.wrap {
+    main {
+        .contacts {
+            padding: 25px 0px 33px 25px;
+            background: #F7F9FF;
+            border-radius: 10px;
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                color: #000000;
+            }
+
+            .suptitle {
+                width: 626px;
+                font-style: normal;
+                font-weight: 400;
+                padding-top: 20px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000000;
+            }
+
+            .ways__list {
+                padding-top: 242px;
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #000000;
+                }
+                .tg {
+                    padding: 28px 0px;
+                }
+                .ways {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        padding-right: 10px;
+                    }
+                    a{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: #232325;
+                    }
+                    &:last-child {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    ;
+}

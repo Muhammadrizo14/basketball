@@ -1,0 +1,42 @@
+@import 'setting.scss';
+
+
+.wrap {
+    main {
+        .contacts {
+            padding: 25px 0px 33px 25px;
+            background: #F7F9FF;
+            border-radius: 10px;
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                color: #000000;
+            }
+
+            .suptitle {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                padding-top: 20px;
+                line-height: 30px;
+                color: #232325;
+                
+            }
+            .pro {
+                ul {
+                    ol {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        padding-top: 3px;
+                        color: #2F82FE;
+                    }
+                }
+            }
+        }
+    }
+
+    ;
+}

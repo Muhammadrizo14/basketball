@@ -1,0 +1,164 @@
+@import 'setting.scss';
+
+
+.wrap {
+    main {
+        .static {
+            display: flex;
+
+            .first {
+                width: 540px;
+
+                .chemp {
+                    width: 490px;
+                    padding: 25px 25px 38px 25px;
+                    background: #F7F9FF;
+                    border-radius: 10px;
+
+                    h3 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        color: #000000;
+                    }
+
+                    .countries__list {
+                        .country {
+                            padding-top: 25px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 25px;
+                                color: #000000;
+                            }
+
+                            .country__title {
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    padding-left: 15px;
+                                    font-size: 25px;
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .more {
+                    display: block;
+                    margin-top: 20px;
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    text-decoration: underline;
+                    img {
+                        padding-right: 10px;
+                    }
+                }
+            }
+
+            .second {
+                width: 1100px;
+                margin-left: 20px;
+
+                .basket {
+                    background: #F7F9FF;
+                    border-radius: 10px;    
+                    padding: 25px 0px 35px 0px;
+                    h1 {
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 25px;
+                        padding-left: 25px;
+                        font-size: 25px;
+                        color: #000000;
+                    }
+
+                    .woman {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px 0px 20px 25px;
+                        background: #0C225E;
+                        margin-bottom: 25px;
+
+                        h3 {
+                            padding-left: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 25px;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .foa {
+                        border-radius: 10px;
+                        padding-left: 25px;
+
+                        .foa__card {
+                            padding-bottom: 25px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding-right: 25px;
+                            &:last-child {
+                                padding-bottom: 0;
+                            }
+
+                            h2 {
+                                flex-basis: 60%;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 25px;
+                                color: #000000;
+                            }
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                color: #000000;
+                                flex-basis: 20%;
+                            }
+
+                            a {
+                                display: block;
+                                color: #00A76A;
+                                padding: 10px 30px;
+                                border: 3px solid #00A76A;
+                                border-radius: 5px;
+                                &:hover {
+                                    transition: 0.5s ease;
+                                    background-color: #00A76A;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .more {
+                    display: block;
+                    margin-top: 20px;
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    text-decoration: underline;
+                    img {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

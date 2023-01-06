@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1660px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf");
+}
+html,
+body {
+  height: 100%;
+  background-image: url("../img/gl_bg.png");
+  background-size: cover;
+}
+
+.wrap {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap header {
+  padding: 42px;
+}
+.wrap header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap header .container ul {
+  display: flex;
+}
+.wrap header .container ul li {
+  padding-right: 40px;
+  list-style: none;
+}
+.wrap header .container ul li:last-child {
+  padding-right: 0px;
+}
+.wrap header .container ul li a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.wrap header .container ul li .login {
+  padding: 10px 30px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+.wrap main {
+  flex: 1 1 auto;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.wrap footer {
+  background-color: #fff;
+  padding: 20px;
+}
+.wrap footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #122E82;
+}/*# sourceMappingURL=setting.css.map */
